@@ -1,0 +1,53 @@
+body{
+    margin: 10px;
+}
+
+
+.broder{
+    color: aqua;
+    height: 50px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 10px soild blue;
+    -webkit-border-radius: 10px soild blue;
+    -moz-border-radius: 10px soild blue;
+    -ms-border-radius: 10px soild blue;
+    -o-border-radius: 10px soild blue;
+}
+.broder-one{
+    height: 50px;
+    width: 200px;
+    background-color: tomato;
+    border-radius: 5px soild red;
+    -webkit-border-radius: 5px soild red;
+    -moz-border-radius: 5px soild red;
+    -ms-border-radius: 5px soild red;
+    -o-border-radius: 5px soild red;
+}
+.broder-two{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(92, 255, 71);
+    border-radius: 5px solid red;
+    border-radius: 10px solid black;
+    -webkit-border-radius: 10px solid black;
+    -moz-border-radius: 10px solid black;
+    -ms-border-radius: 10px solid black;
+    -o-border-radius: 10px solid black;
+}
+.Overflow{
+    height: 200px;
+    width: 300px;
+    border: 5px solid red;
+    overflow: hidden;
+   overflow-y: scroll;
+    
+}
+.mini{
+    width: 200px;
+    border: 2px solid tomato;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 30px;
+
+}
